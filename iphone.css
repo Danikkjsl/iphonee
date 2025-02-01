@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    
+    width: 100%;
+}
+
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    height: 1500px;
+}
+
+@media (orientation: portrait),(max-width: 1024px){
+    header{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        background: #282727;
+        margin: 0;
+
+    }
+    .img-iph{
+        width: 60px;
+        height: 60px;
+        left: 50px;
+        top: 50px;
+        position: absolute;
+    }
+    .header-h2{
+        position:absolute;
+        transform:translateX(-50%);
+        left: 50%;
+        top: 60px;
+        color: aliceblue;
+        font-family: 'Karla';
+        font-style: normal;
+        font-size: 25px;
+    }
+
+    .line{
+        transform:translateX(-50%);
+        left: 50%;
+        position: absolute;
+        width: 500px;
+        height: 0px;
+        border-bottom: 1px solid #FFFFFF;
+        top: 100px;
+    }
+    .iphon-16promax{
+        position: absolute;
+        width: 100px;
+        height: 120px;
+        left: 250px;
+        top: 140px;
+    }
+
+    .iphon-16pro{
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 420px;
+        top: 115px;
+    }
+
+    .iphon-16{
+        position: absolute;
+        width: 160px;
+        height: 150px;
+        top: 135px;
+        left: 600px;
+    }
+    .h2-16promax{
+        position: absolute;
+        top:280px;
+        left: 250px;
+        font-size: 20px;
+        font-family: 'Instrument Sans';
+        font-style: normal;
+        font-weight: 400;
+        color: #DEDEDE;
+
+
+    }
+    .h2-16pro{
+        position: absolute;
+        top:280px;
+        left: 475px;
+        font-size: 20px;
+        font-family: 'Instrument Sans';
+        font-style: normal;
+        font-weight: 400;
+        color: #DEDEDE;
+
+
+    }
+
+    .h2-16{
+        position: absolute;
+        top:280px;
+        left: 670px;
+        font-size: 20px;
+        font-family: 'Instrument Sans';
+        font-style: normal;
+        font-weight: 400;
+        color: #DEDEDE;
+
+
+    }
+    .h1-main{
+        position: relative;
+        font-size: 64px;
+        left: 100px;
+        top: 100px;
+        line-height: 1.0625;
+        font-weight: 600;
+        letter-spacing: -0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .h1-main2{
+        position: relative;
+        font-size: 30px;
+        left:  700px;
+        top: 40px;
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: 0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 250px;
+    }
+    .img-main{
+        position: relative;
+        top: 100px;
+        width: 100%;
+        height: 500px;
+    }
+    .iphone-h2{
+        font-size: 38px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        top: 300px;
+        left: 100px;
+        position: relative;
+        width: 350px;
+    }
+    .block1{
+        top: 100px;
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background: #d6d4d4;
+    }
+}
